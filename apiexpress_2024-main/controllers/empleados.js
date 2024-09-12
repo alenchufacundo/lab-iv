@@ -1,5 +1,6 @@
 const axios = require('axios')
 const { request, response } = require('express')
+const { URL_BASE } = require('../constants/constants')
 
 const getEmpleados = (req = request, res = response) => {
   const { lastname = '', year = '', category = '', page = '' } = req.query
@@ -7,11 +8,11 @@ const getEmpleados = (req = request, res = response) => {
 
   const filtro = (lastname) ? `?lastname=${lastname}` : ''
 
-  axios.get(`https://66c78f59732bf1b79fa6e8c7.mockapi.io/api/v1/empleados${filtro}`)
+  axios.get(URL_BASE + '/currency.json')
     .then((response) => {
       const { data = [] } = response
       // handle success
-      // console.log(data);
+       console.log(data);
 
       res.status(200).json({
         msg: 'Ok',
