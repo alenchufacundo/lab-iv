@@ -13,12 +13,14 @@ class Server {
   }
 
   rutas () {
-    this.app.use('/api/v1/capital', require('../routes/')) // Eros Marziani 1
-    this.app.use('/api/v1/names', require('../routes/')) // Joaquin Hernandez 2
-    this.app.use('/api/v1/continent', require('../routes/')) // Marcos Bayon 2
-    this.app.use('/api/v1/currency', require('../routes/')) // Facundo Rios 2
+      //  this.app.use('/api/v1/capital', require('../routes/capital')); // Eros Marziani 1
+      this.app.use('/api/v1/names', require('../routes/names'));// Joaquin Hernandez 2
+      //this.app.use('/api/v1/continent', require('../routes/continent'));// Marcos Bayon 2
+      // this.app.use('/api/v1/currency', require('../routes/currency')); // Facundo Rios 2
 
-    
+
+
+
     /*   this.app.use('*', (req, res) => {
             res.status(404).send('Page not found');
         }); // Integrante 2 */
