@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans&display=swap');
+
+#resultados{
+    overflow: hidden;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.pelicula2{
+    margin: 0 auto;
+    width: 50%;
+}
+
+.datos{
+    position: relative;
+    top: -408px;
+    left: 55%;
+}
+
+.diseño2{
+    border: 8px solid black;
+}
+
+h4{
+    color: red;
+    font-family: 'Fredoka One', cursive;
+    font-size: 138%;
+}
+
+.navigation ul,li{
+    color: #040404;
+    font-family: 'Fredoka One', cursive;
+    width: 68%;
+}

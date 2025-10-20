@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tus pelis</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="recursos/img/favicon1.ico">
+	<link rel="stylesheet" type="text/css" href="recursos/style/estilos.css">
+	<script src="https://kit.fontawesome.com/ebcbc4c7a9.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="recursos/scripts/javascript.js"></script>
+	<script type="text/javascript" src="http://www.omdbapi.com/?apikey=ec699f85&s=batman"></script>
+</head>
+<body>
+
+	<header>
+
+		<nav class="navigation">
+			<a class="subrayado" href="index.html">
+				<h1>PELIS PELIS</h1>
+			</a>
+		</nav>
+
+	</header>
+
+	<!-- Crea la barra de busqueda-->
+	<div class="container">
+		<input type="text" id="buscar" placeholder="Encuentra tu peli...">
+			<div class="btn">
+				<button type="submit" class="enviar_boton" onclick="search()">
+				<i class="fa-solid fa-magnifying-glass"></i>
+			</div>	
+	</div>
+
+	<div id="resultados" style="color:white">
+			
+	</div>
+</body>
+</html>

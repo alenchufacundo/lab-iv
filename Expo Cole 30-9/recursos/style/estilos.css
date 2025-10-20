@@ -1,0 +1,22 @@
+/*letra header*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/*letra titulo <h1> */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Fredoka+One&display=swap');
+
+/*CSS del HEADER*/
+@import url('estilos_header.css');	
+
+/* CSS BARRA DE BUSQUEDA*/
+@import url('estilos_barra_busqueda.css');
+
+/* CSS PARA BUSQUEDA HECHA */
+@import url('estilos_busqueda_hecha.css');
+
+body{
+	background: url("https://images.ecestaticos.com/pp8ryF5wC9-50I5CuNB05UDLZGQ=/28x121:2271x1390/1600x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F000%2F7a9%2F9be%2F0007a99be8c5283e3edc30a082c22774.jpg");
+	margin: 0;
+	padding: 0;  
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+}

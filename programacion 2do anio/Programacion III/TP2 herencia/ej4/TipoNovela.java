@@ -1,0 +1,6 @@
+package ej4;
+
+public enum TipoNovela {
+    HISTORICA, ROMANTICA, POLICIACA, REALISTA,
+    CIENCIAFICCION, AVENTURAS
+}
